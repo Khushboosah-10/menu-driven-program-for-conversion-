@@ -32,9 +32,7 @@ def hextodec():
         
 def main():
     print("\nMenu\n(2)base 2\n(8)base 8\n(16)base 16\n(Q)uit")
-    choose=input("Enter your choice>>> ")
-    conversion_table = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, 'A': 10 , 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15}
-    decimal = 0
+    choose=input("Enter your choice>>> "
     choice=choose.lower()
     while choice!="q":
         if choice=="2":
